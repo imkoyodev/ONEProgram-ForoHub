@@ -1,0 +1,25 @@
+
+{
+	"name": "ONE Program - ForoHub",
+	"dockerComposeFile": "compose.yaml",
+	"service": "java-forohub",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"forwardPorts": [8888],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"redhat.java",
+				"vscjava.vscode-java-debug",
+				"vscjava.vscode-java-test",
+				"vscjava.vscode-maven",
+				"vscjava.vscode-java-dependency",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"shengchen.vscode-checkstyle",
+				"vmware.vscode-boot-dev-pack",
+				"ms-toolsai.datawrangler"
+			]
+		}
+	}
+}
